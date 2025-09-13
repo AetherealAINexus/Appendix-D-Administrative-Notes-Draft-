@@ -1,0 +1,14 @@
+name: Decision Record
+description: Architecture decision record
+title: "ADR: "
+labels: ["ADR"]
+body:
+  - type: textarea
+    id: context
+    attributes: { label: Context }
+  - type: textarea
+    id: decision
+    attributes: { label: Decision }
+  - type: textarea
+    id: consequences
+    attributes: { label: Consequences }

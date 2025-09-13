@@ -1,0 +1,9 @@
+name: Task
+description: Small actionable work item
+title: "[Task] "
+labels: ["task"]
+body:
+  - type: textarea
+    id: summary
+    attributes: { label: Summary, description: What & why }
+    validations: { required: true }
